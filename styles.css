@@ -1,0 +1,504 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+.header {
+    background-color: #fff; /* Light background color for the header */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for separation */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: #333; /* Dark text color for the navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ff6347;
+}
+
+.order-button {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; /* Ensure the text is visible on the button */
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #e5533d;
+}
+
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover; /* Background image */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    background-color: #f0f0f0; /* Light background color if the image is not loaded */
+}
+
+.hero-content {
+    max-width: 700px; /* Maximum width for the content */
+    padding: 20px; /* Padding around the content */
+    background: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.hero h1 {
+    font-size: 2.5em; /* Large font size */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.hero p {
+    font-size: 1.2em; /* Medium font size */
+    margin-bottom: 30px; /* Space below the paragraph */
+    color: #555; /* Slightly lighter text color */
+}
+
+.cta-button {
+    background-color: #ff6347; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 15px 30px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    margin: 0 10px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.cta-button:hover {
+    background-color: #e5533d; /* Button background color on hover */
+}
+
+.about-us {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.about-us h2 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.about-us-content {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.about-us img {
+    width: 300px; /* Image width */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.text {
+    max-width: 600px; /* Maximum width of the text container */
+    text-align: left; /* Left-align text */
+}
+
+.text p {
+    font-size: 1.2em; /* Font size for paragraphs */
+    margin-bottom: 20px; /* Space below paragraphs */
+    color: #555; /* Slightly lighter text color */
+}
+
+.cta-button {
+    background-color: #ff6347; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.cta-button:hover {
+    background-color: #e5533d; /* Button background color on hover */
+}
+
+.menu {
+    background-color: #fff; /* Light background color */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.menu h2 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.menu-items {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+}
+
+.menu-item {
+    background-color: #f4f4f4; /* Light background color for menu items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the item */
+    width: 300px; /* Width of the menu item */
+    text-align: left; /* Left-align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.menu-item img {
+    width: 100%; /* Full width of the item */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.menu-item h3 {
+    font-size: 1.5em; /* Font size for the menu item title */
+    margin: 10px 0; /* Space above and below the title */
+    color: #333; /* Dark text color */
+}
+
+.menu-item p {
+    font-size: 1em; /* Font size for the description */
+    margin-bottom: 10px; /* Space below the description */
+    color: #555; /* Slightly lighter text color */
+}
+
+.menu-item .price {
+    font-size: 1.2em; /* Font size for the price */
+    color: #ff6347; /* Price text color */
+    font-weight: bold; /* Bold text */
+}
+
+.special-features {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.special-features h2 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.features-list {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+}
+
+.feature {
+    background-color: #fff; /* Light background color for feature items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the item */
+    width: 300px; /* Width of the feature item */
+    text-align: left; /* Left-align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.feature h3 {
+    font-size: 1.5em; /* Font size for the feature item title */
+    margin: 10px 0; /* Space above and below the title */
+    color: #333; /* Dark text color */
+}
+
+.feature p {
+    font-size: 1em; /* Font size for the description */
+    color: #555; /* Slightly lighter text color */
+}
+
+.testimonials {
+    background-color: #fff; /* Light background color */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.testimonials h2 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.testimonials-carousel {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+}
+
+.testimonial {
+    background-color: #f4f4f4; /* Light background color for testimonial items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the item */
+    width: 300px; /* Width of the testimonial item */
+    text-align: left; /* Left-align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.testimonial p {
+    font-size: 1em; /* Font size for the testimonial text */
+    margin-bottom: 10px; /* Space below the testimonial text */
+    color: #555; /* Slightly lighter text color */
+}
+
+.testimonial span {
+font-size: 0.9em; /* Font size for the author name */
+    color: #888; /* Lighter text color for the author name */
+}
+
+.locations {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.locations h2 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.locations-list {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+}
+
+.location {
+    background-color: #fff; /* Light background color for location items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the item */
+    width: 300px; /* Width of the location item */
+    text-align: left; /* Left-align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.location h3 {
+    font-size: 1.5em; /* Font size for the location title */
+    margin: 10px 0; /* Space above and below the title */
+    color: #333; /* Dark text color */
+}
+
+.location p {
+    font-size: 1em; /* Font size for the description */
+    color: #555; /* Slightly lighter text color */
+}
+
+#map {
+    background: url('map-background.jpg') no-repeat center center/cover; /*   Background image */
+    margin-top: 20px; /* Space above the map */
+    width: 100%; /* Full width */
+    height: 400px; /* Fixed height */
+    background-color: #e0e0e0; /* Placeholder background color */
+}
+
+.contact-us {
+    background-color: #fff; /* Light background color */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.contact-us h2 {
+    font-size: 2em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.contact-us-content {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+}
+
+.contact-info {
+    max-width: 500px; /* Maximum width of the contact info section */
+    text-align: left; /* Left-align text */
+}
+
+.contact-info h3 {
+    font-size: 1.5em; /* Font size for the sub-heading */
+    margin-bottom: 10px; /* Space below the sub-heading */
+    color: #333; /* Dark text color */
+}
+
+.contact-info p {
+    font-size: 1em; /* Font size for the paragraph */
+    margin-bottom: 10px; /* Space below the paragraph */
+    color: #555; /* Slightly lighter text color */
+}
+
+.contact-info a {
+    color: #ff6347; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.contact-info a:hover {
+    color: #e5533d; /* Link color on hover */
+}
+
+.contact-form {
+    max-width: 500px; /* Maximum width of the contact form */
+    background-color: #f9f9f9; /* Light background color for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left; /* Left-align text */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the inputs */
+    margin-bottom: 10px; /* Space below each input */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Font size for the inputs */
+}
+
+.contact-form button {
+    background-color: #ff6347; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.contact-form button:hover {
+    background-color: #e5533d; /* Button background color on hover */
+}
+
+.footer {
+    background-color: #fff; /* Light background color */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for separation */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.footer-content {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-between; /* Space items out evenly */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between items */
+}
+
+.footer-links {
+    display: flex; /* Flexbox layout */
+    gap: 20px; /* Space between links */
+}
+
+.footer-links a {
+    color: #333; /* Dark text color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.footer-links a:hover {
+    color: #ff6347; /* Link color on hover */
+}
+
+.social-media {
+    color: #888; /* Lighter text color */
+}
+
+.social-media a {
+    color: #333; /* Dark text color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 5px; /* Space between links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-media a:hover {
+    color: #ff6347; /* Link color on hover */
+}
+
+.footer p {
+    font-size: 0.9em; /* Font size for the paragraph */
+    color: #888; /* Lighter text color */
+    margin-top: 10px; /* Space above the paragraph */
+}
